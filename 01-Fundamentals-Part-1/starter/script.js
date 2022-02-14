@@ -31,7 +31,7 @@ console.log(johnBMIData2)
 console.log(markHigherBMIDat2)
 
 if (markHigherBMIDat2) {
-    console.log("Mark's BMI is higher than John's!")
+    console.log(`Mark's BMI (${markBMIData2}) is higher than John's!`)
 } else {
     console.log("John's BMI is higher than Mark's!")
 }
